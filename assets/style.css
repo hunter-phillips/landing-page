@@ -29,10 +29,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    height: 100vh;
 	line-height: 1;
     box-sizing: border-box;
 }
-ol, ul {
+ol, ul{
 	list-style: none;
 }
 blockquote, q {
@@ -46,4 +47,113 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+/*
+Design
+*/
+.header{
+    background-color: darkgreen;
+    border-bottom: 3px black solid;
+}
+.logo{
+    font-size: 48px;
+    color: white;
+}
+
+.links li{
+    font-size: 20px;
+    border: white solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+}
+
+.hero{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 30px 125px;
+    border-bottom: 3px black solid;
+}
+.hero-content h2{
+    font-size: 36px;
+}
+
+.hero-content p{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+button{
+    background-color: darkgoldenrod;
+    border: 1px white solid;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+}
+
+.hero-content button{
+    margin: 0 20px;
+}
+
+.hero img{
+    width: 400px;
+}
+
+.card img{
+    width: 150px;
+}
+
+.footer{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+/*
+Box Model
+*/
+.footer, .header{
+    height: 75px;
+}
+
+/* Flexbox */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 125px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+    flex: 1;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

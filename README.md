@@ -11,3 +11,6 @@
     Photo by Tima Miroshnichenko from Pexels
 - Moving Chess Piece Image:
     Photo by Kevin Malik from Pexels
+- Chess Facts:
+    "40 Facts About Chess Most People Don't Know" by Yury Markushin 
+    https://thechessworld.com/articles/general-information/40-facts-about-chess-most-people-dont-know/
